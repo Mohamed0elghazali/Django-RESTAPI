@@ -1,5 +1,7 @@
 docker build --tag django-api .
 docker run --publish 8000:8000 django-api
 
+docker-compose build
+docker-compose up
 
 
